@@ -4,7 +4,7 @@
 their REST API.
 
 This library was created for internal use by [Nimble Servers][1] who use a lot
-of Open Source Software and thought it would be nice to contribute something
+of open source software so thought it would be nice to contribute something
 back!
 
 ### Example Usage
