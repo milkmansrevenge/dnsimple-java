@@ -60,4 +60,4 @@ This library is not on Maven central so must be compiled by yourself.
 [2]:http://code.google.com/p/google-gson/
 [3]:http://hc.apache.org/httpcomponents-client-ga/
 [4]:http://maven.apache.org/download.html
-[5]:https://github.com/milkmansrevenge/nimbleservers-zeus/zipball/master
+[5]:https://github.com/milkmansrevenge/dnsimple-java/zipball/master
