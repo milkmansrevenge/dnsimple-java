@@ -40,7 +40,7 @@ Not all of DNSimple's features are implemented, here is what we have so far:
 
 ### Installation
 
-This library is not on Maven central so must be compiled by yourself.
+This library is not on Maven central (yet) so must be compiled by yourself.
 
 1. Download and install [Maven 3][4].
 2. Get the dnsimple-java source code, either with Git:
