@@ -3,9 +3,8 @@
 [DNSimple][0] let you do some very cool and useful things with domains via 
 their REST API.
 
-This library was created for internal use by [Nimble Servers][1] who use a lot
-of open source software so thought it would be nice to contribute something
-back!
+This library was created for internal use by [Nimble Servers][1], hopefully
+it will be useful to others too.
 
 ### Example Usage
 
