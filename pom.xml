@@ -29,6 +29,7 @@
   <name>dnsimple-java</name>
   <description>A Java wrapper for the DNSimple API</description>
   <inceptionYear>2012</inceptionYear>
+  <packaging>jar</packaging>
   
   <organization>
     <name>Nimble Servers Limited</name>
