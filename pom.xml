@@ -25,8 +25,9 @@
   
   <groupId>com.nimbleservers</groupId>
   <artifactId>dnsimple-java</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
   <name>dnsimple-java</name>
+  <url>https://github.com/milkmansrevenge/dnsimple-java</url>
   <description>A Java wrapper for the DNSimple API</description>
   <inceptionYear>2012</inceptionYear>
   <packaging>jar</packaging>
@@ -46,7 +47,16 @@
   
   <scm>
     <url>https://github.com/milkmansrevenge/dnsimple-java</url>
+    <connection>https://github.com/milkmansrevenge/dnsimple-java.git</connection>
   </scm>
+  
+  <developers>
+    <developer>
+      <id>milkmansrevenge</id>
+      <name>Chris Strand</name>
+      <organization>Nimble Servers Limited</organization>
+    </developer>
+  </developers>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
