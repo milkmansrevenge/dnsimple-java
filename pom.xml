@@ -17,15 +17,12 @@
 
 -->
 
-<project
-  xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   
   <groupId>com.nimbleservers</groupId>
   <artifactId>dnsimple-java</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3</version>
   <name>dnsimple-java</name>
   <url>https://github.com/milkmansrevenge/dnsimple-java</url>
   <description>A Java wrapper for the DNSimple API</description>
@@ -49,6 +46,7 @@
     <url>https://github.com/milkmansrevenge/dnsimple-java</url>
     <connection>scm:git:https://github.com/milkmansrevenge/dnsimple-java.git</connection>
     <developerConnection>scm:git:https://github.com/milkmansrevenge/dnsimple-java.git</developerConnection>
+    <tag>dnsimple-java-0.0.3</tag>
   </scm>
   
   <developers>
