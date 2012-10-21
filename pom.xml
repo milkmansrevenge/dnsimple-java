@@ -48,6 +48,7 @@
   <scm>
     <url>https://github.com/milkmansrevenge/dnsimple-java</url>
     <connection>https://github.com/milkmansrevenge/dnsimple-java.git</connection>
+    <developerConnection>https://github.com/milkmansrevenge/dnsimple-java.git</developerConnection>
   </scm>
   
   <developers>
