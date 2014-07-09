@@ -57,7 +57,7 @@ import com.nimbleservers.dnsimple.record.Record;
  */
 public class DnsimpleContext {
   
-  public static final String END_POINT = "https://dnsimple.com";
+  public static final String END_POINT = "https://api.dnsimple.com/v1";
   public static final String CHARSET = "utf-8";
   
   private final Header headers[];
