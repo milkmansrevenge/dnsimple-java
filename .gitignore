@@ -6,3 +6,10 @@ release.properties
 pom.xml.releaseBackup
 *.class
 *.jar
+
+*.iml
+*.ipr
+*.iws
+.idea
+
+

@@ -578,6 +578,36 @@ public class DnsimpleContext {
     }
     
   }
+
+  public void deleteRecord(Domain domain, String recordId) throws UnexpectedResponseException, IOException {
+    deleteRecord(domain.getName(), recordId);
+  }
+
+  /**
+   * Deletes an existing record from a domain
+   * @param domain the name or the ID of the domain to delete the record from
+   * @param recordId the ID of the record to be deleted
+   * @throws UnexpectedResponseException If the HTTP response code from
+   *    DNSimple's API was not what was expected
+   * @throws IOException If the connection was aborted
+   */
+  public void deleteRecord(String domain, String recordId) throws UnexpectedResponseException, IOException {
+    String uri = END_POINT + "/domains/" + domain + "/records/" + recordId;
+    HttpDelete httpDelete = new HttpDelete(uri);
+
+    int expectedCode = HttpStatus.SC_OK;
+    int statusCode;
+
+    httpDelete.setHeaders(headers);
+
+    HttpResponse response = httpClient.execute(httpDelete);
+    statusCode = response.getStatusLine().getStatusCode();
+
+    if (statusCode != expectedCode) {
+      throw new UnexpectedResponseException(expectedCode, statusCode);
+    }
+
+  }
   
   /**
    * Closes all connections.
