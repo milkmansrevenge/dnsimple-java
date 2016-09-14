@@ -600,11 +600,16 @@ public class DnsimpleContext {
 
     httpDelete.setHeaders(headers);
 
-    HttpResponse response = httpClient.execute(httpDelete);
-    statusCode = response.getStatusLine().getStatusCode();
+    HttpResponse response = null;
+    try {
+      response = httpClient.execute(httpDelete);
+      statusCode = response.getStatusLine().getStatusCode();
 
-    if (statusCode != expectedCode) {
-      throw new UnexpectedResponseException(expectedCode, statusCode);
+      if (statusCode != expectedCode) {
+        throw new UnexpectedResponseException(expectedCode, statusCode);
+      }
+    } finally {
+      EntityUtils.consume(response.getEntity());
     }
 
   }
